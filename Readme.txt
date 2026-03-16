@@ -289,3 +289,40 @@ Directory Breakdown
         package.json: Manages NPM dependencies and configurations.
         .env: Optional file for environment variables.
 
+Qpaper/
+├── backend/                    # Django back-end directory
+│   ├── qpapers/                # Django project directory
+│   │   ├── __init__.py
+│   │   ├── settings.py         # Project settings
+│   │   ├── urls.py             # Project URLs
+│   │   ├── wsgi.py             # WSGI configuration
+│   ├── papers/                 # Django app for handling papers
+│   │   ├── migrations/          # Database migrations
+│   │   ├── __init__.py
+│   │   ├── admin.py            # Admin configurations
+│   │   ├── apps.py             # App configurations
+│   │   ├── forms.py            # Forms for uploading PDFs
+│   │   ├── models.py           # Database models
+│   │   ├── tests.py            # Tests for the app
+│   │   ├── views.py            # Views for handling requests
+│   │   ├── urls.py             # URLs specific to the papers app
+│   │   └── templates/          # HTML templates
+│   ├── media/                  # Uploaded media files (e.g., PDFs)
+│   ├── manage.py               # Django management commands
+│   ├── requirements.txt        # Python package requirements
+│   └── .env                    # Environment variables (optional)
+│
+├── frontend/                   # React front-end directory
+│   ├── public/                 # Public static files
+│   ├── src/                    # Source files for React app
+│   │   ├── components/         # React components
+│   │   ├── App.js              # Main app component
+│   │   ├── index.js            # Entry point for React
+│   │   └── styles/             # CSS styles
+│   ├── package.json            # NPM dependencies and scripts
+│   └── .env                    # Environment variables (optional)
+│
+├── .gitignore                  # Git ignore file
+└── README.md                   # Project documentation
+
+
