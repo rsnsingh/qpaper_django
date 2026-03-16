@@ -272,3 +272,20 @@ To create a front-end in React, you can follow these steps:
 3. **Create Components to Handle Uploads and Fetch Data**.
 
 4. **Connect to Django API** to upload and list the papers.
+
+Directory Breakdown
+
+    backend/: Contains all backend-related files and directories.
+        qpapers/: The main Django project folder where settings and configurations reside.
+        papers/: The Django app that handles question papers, including models, views, and templates.
+        media/: A directory to store uploaded PDF files.
+        manage.py: The command-line utility for Django.
+        requirements.txt: Lists the Python packages required to run the project.
+        .env: Optional file for environment variables.
+
+    frontend/: Contains all front-end related files for the React application.
+        public/: Contains static files that will be served.
+        src/: The source code of the React application, including components and entry point.
+        package.json: Manages NPM dependencies and configurations.
+        .env: Optional file for environment variables.
+
